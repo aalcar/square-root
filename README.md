@@ -5,6 +5,6 @@ If you wanna use my version instead of the version included in the math.h librar
 3. Compile your program.
 ## Example Makefile:
 sqrt.out: main.o sqrt.o
-<br>\text{$} $$(CC) \text{$}(CFLAGS) main.o sqrt.o -o sqrt.out
+<br>$\text{$}$(CC) \text{$}(CFLAGS) main.o sqrt.o -o sqrt.out
 <br>main.o: main.c sqrt.h
 <br>sqrt.o: sqrt.c
