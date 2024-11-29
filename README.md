@@ -8,6 +8,6 @@ CC := gcc
 <br>CFLAGS := -g -Wall -Werror
 <br>
 <br>sqrt.out: main.o sqrt.o
-<br>&nbsp&nbsp&nbsp&nbsp$(CC) $(CFLAGS) main.o sqrt.o -o sqrt.out
+<br>&nbsp;&nbsp;&nbsp;&nbsp;$(CC) $(CFLAGS) main.o sqrt.o -o sqrt.out
 <br>main.o: main.c sqrt.h
 <br>sqrt.o: sqrt.c
